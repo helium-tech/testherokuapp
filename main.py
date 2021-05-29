@@ -7,7 +7,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"Hello": "Helium API on HEroku"}
+    return {"Hello": "Helium API on HEroku new"}
 
 
 @app.get("/items/{item_id}")
